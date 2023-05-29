@@ -9,7 +9,7 @@ console.log(varnumber2);
 
 alert(`La variable numérica 1 es:  ${varnumber1} y la variable numérica 2 es: ${varnumber2}`);
 
-document.getElementById('number1').textContent = `La variable numérica 1 es:  + ${varnumber1.toString()}`;
+document.getElementById('number1').textContent = `La variable numérica 1 es:  ${varnumber1.toString()}`;
 document.getElementById('number2').textContent = `La variable numérica 2 es: ${varnumber2.toString()}`;
 
 //String
@@ -71,7 +71,7 @@ document.getElementById('producto').textContent = 'El resultado es: ' + varprodu
 //División
 let vardivision = varnumber1 / varnumber2;
 console.log(vardivision);
-document.getElementById('division').textContent = `El resultado es: ' ${vardivision}`;
+document.getElementById('division').textContent = `El resultado es: ${vardivision}`;
 
 //Residuo
 let varresiduo = varnumber1 % varnumber2;
@@ -92,6 +92,7 @@ function saludo(nombre) {
     return varsaludo;
 }
 console.log(saludo(varnombre));
+alert(saludo(varnombre));
 document.getElementById('saludo').innerHTML = saludo(varnombre);
 
 //Función que devuelve la suma de sus parámetros
